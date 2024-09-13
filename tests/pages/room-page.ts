@@ -20,11 +20,10 @@ export class RoomPage {
     await this.deleteRoomButton.click();
   }
 
-  async verifyRoomDetails(number: string, floorNumber: string, roomPrice: string) {
+/*  async verifyRoomDetails(number: string, floorNumber: string, roomPrice: string) {
     const element = this.page.locator('#app > div > div.clients > div:nth-last-child(1)');
     await expect(element).toContainText(number);
     await expect(element).toContainText(floorNumber);
     await expect(element).toContainText(roomPrice);
-  }
-
+  } */
 }
